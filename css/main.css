@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+* {
+  box-sizing: border-box;
+}
+
+.content {
+  display: grid;
+}
+.herointro {
+  font-size: 33px;
+  background-size: cover;
+  background-color: orange;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.row1 {
+  background-color: yellow;
+}
+
+.col-1-3 {
+  text-align: center;
+  padding: 40px;
+}
+
+.footer {
+  text-align: center;
+  background-color: orange;
+  padding: 40px;
+}
+
+.quote {
+  color: white;
+  background-color: orange;
+  font-size: 22px;
+  padding: 40px;
+  text-align: center;
+}
+.quote > .quotegiver {
+  text-align: right;
+}
+
+.row3 {
+  display: flex;
+  flex-direction: row;
+}
